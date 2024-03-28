@@ -34,6 +34,7 @@
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
+    cursor:pointer;
 }
 
 /* header styles */
@@ -42,6 +43,7 @@ header{
    
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 240px;
+    
 }
 
 nav{
@@ -108,13 +110,56 @@ nav li a{
 
 .banner{
    
-  
+   
+   
 }
 
 .banner-content{
    max-width: 800px;
    text-align: center;
-   border: 1px solid red;
-   margin: 0 auto;
    
+   margin: 0 auto;
+  
 }
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+/* responsive media queries */
+    /* mobile device */
+@media screen and (max-width:576px) {
+    
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+        ul> li{
+            flex-direction: column;
+        }
+
+
+    }
+
+
+    /* tablet or media devices */
+
+    @media screen and (min-width:576px) and (max-width:960px) {
+
+
+        header{
+            padding: 50px;
+        }
+    
+        nav{
+            flex-direction: column;
+
+        }
+
+
+    }
