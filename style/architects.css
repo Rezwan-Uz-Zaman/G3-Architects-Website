@@ -86,7 +86,7 @@ nav li a{
 
 }
 
-.nav-title{
+.section-title{
 
     color: rgb(19, 19, 19);
     font-size: 2.8rem;
@@ -167,7 +167,7 @@ main{
     margin: 70px auto;
 }
 
-/* teams container styles */
+/* teams section styles */
 
 
 .teams-container{
@@ -216,6 +216,25 @@ main{
     line-height: 26px;
     text-align: left;
 }
+
+
+.features-container{
+    display: flex;
+    margin-top: 10rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
