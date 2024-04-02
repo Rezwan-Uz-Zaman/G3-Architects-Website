@@ -215,7 +215,7 @@ main{
     display: flex;
     margin-top: 130px;
     gap: 100px;
-    border: 2px solid red;
+    
     
 }
 
@@ -228,6 +228,11 @@ padding: 30px;
 text-align: left;
 margin-bottom: 30px;
 
+}
+
+.fratures-image img{
+    height: 80%;
+    margin-left: 90px;
 }
 
 
@@ -268,8 +273,11 @@ text-align: left;
     border-radius: 8px;
     background: rgb(255, 144, 14);
     padding: 40px;
-    width: 342px;
-   
+    width: 340px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 
 .ten-years-box h2 {
@@ -279,22 +287,13 @@ text-align: left;
 
 .ten-years-box p{
     color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    
 }
 
 .ten-years-box h2{
     font-size: 4rem;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -369,7 +368,6 @@ padding:  30px;
 .sponspors-img-container img{
     width: 160px;
 
-
 }
 
 
@@ -440,7 +438,19 @@ background: rgb(251, 230, 204);
           
         }
 
-        .sponspors-img-container{
+        .fratures-image img{
+           
+            width: 100%;
+            margin: 0;
+        }
+
+        .ten-years-box{
+            position: static;
+            max-width: 230px;
+        }
+
+
+        .sponspors-img-container,.fratures{
             
             flex-direction: column;
         
@@ -465,7 +475,7 @@ background: rgb(251, 230, 204);
         }
 
 
-        nav{
+        nav,.fratures{
             flex-direction: column;
     
         }
