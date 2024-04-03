@@ -117,7 +117,6 @@ nav li a{
 .banner-content{
    max-width: 800px;
    text-align: center;
-   
    margin: 0 auto;
   
 }
@@ -384,11 +383,14 @@ background: rgb(251, 230, 204);
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+   
 
 }
 
-
-
+.footer p{
+    margin-top: 130px;
+   
+}
 
 
 
@@ -478,6 +480,12 @@ background: rgb(251, 230, 204);
         nav,.fratures{
             flex-direction: column;
     
+        }
+
+        .fratures{
+
+            padding-left: 50px;
+            padding-right: 50px;
         }
 
         .teams-container{
